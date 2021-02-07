@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    margin: 65px 75px 90px 80px;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /*width: 1211px;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.logo{
+    font-family: 'Red Rose', cursive;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    color: #0A0600;
+}
+
+
+span{
+    color: #995504;
+}
+
+.home:hover {
+    color: #995504;
+}
+
+ul li a {
+    text-decoration: none;
+ color:  #0A0600;
+}
+
+li {
+    list-style: none;
+}
+
+.header_input{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.cart{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 61px;
+    height: 52px;
+    border-radius: 15px;
+    background-color: #995504;
+    padding: 20px;
+    color: white;
+    
+
+}
+
+.search-icon{
+    /*padding-right: 0;*/
+    position: relative;
+    right: 65%;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.search-area{
+    width: 187px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: 1px solid #DDC891;
+}
+
+input[type=text]{
+    padding-left: 40px;
+}
+
+
+main{
+    padding-top: 40px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main_photo{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+}
+
+.type_coffee{
+    display: flex;
+    justify-content: left;
+}
+
+.main_star{
+    background-color: #fff;
+    width: 76px;
+    height: 36px;
+    border-radius: 15px;
+    border: 1px solid #0A0600;
+    margin-left: 10px;
+}
+
+.main_star i {
+    color: #995504;
+
+}
+
+
+
+p{
+    width: 492px;
+    height: 108px;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_price{
+    width: 89px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #0A0600;
+
+}
+
+.main_price_none{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: #0A0600;
+    opacity: 0.5;
+    padding-left: 17px;
+
+}
+
+.btn{
+    display: flex;
+
+
+}
+
+
+.btn_calc{
+    width: 210px;
+    height: 68px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(173, 106, 26, 0.2);
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.02);
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+
+
+.btn_cart{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 233px;
+    height: 68px;
+    background: #995504;
+    border-radius: 15px;
+    color: white;
+    margin-top: 40px;
+    gap: 40px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    vertical-align: center;
+    padding: 20px 20px 20px 30px;
+
+
+
+}
+
+.btn_minus{
+    background-color: rgba(173, 106, 26, 0.1);
+    border-radius: 15px;
+    width: 66px;
+    height: 50px;
+    text-align: center;
+    margin: 6px ;
+
+}
+
+
+.main_cart{
+    position: relative;
+    bottom: 35%;
+    left: 53px;
+
+}
